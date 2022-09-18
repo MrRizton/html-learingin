@@ -10,6 +10,11 @@ aside {
 .main {
   display: flex;
 }
+.content-main-block{
+    /* padding-left: 64px; */
+    padding: 62px 64px 86px 64px;
+   
+}
 .logo {
   margin-bottom: 92px;
   display: flex;
@@ -36,6 +41,7 @@ header {
 .line {
   border: 2px solid #f4f4f4;
   width: 1571px;
+
 }
 .header-left-block {
 }
@@ -55,4 +61,53 @@ header {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+}
+.rastaraunt-name {
+  display: flex;
+  justify-content: space-between;
+
+}
+.restaurant-name-text{
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+color: #000000;
+margin-right: 668px;
+}
+.button {
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #696969;
+  width: 85px;
+  height: 40px;
+  justify-content: center;
+}
+.seat-name{
+    display: flex;
+    justify-content: space-between;
+}
+.seat-name-text{
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+color: #000000;
+margin-right: 380px;
+}
+.content-bottom-part{
+    display: flex;
+}
+.content-left-part{
+    margin-right: 48px;
 }
