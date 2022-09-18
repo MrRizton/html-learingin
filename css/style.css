@@ -6,3 +6,23 @@ background: #161616;
 width: 156px;
 padding: 54px;
 }
+.logo{
+    margin-bottom: 92px;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav img{
+    width: 19px;
+    height: 17px;
+    margin-bottom: 56px;
+}
+.logout{
+    margin-top: 484px;
+    display: flex;
+    justify-content: center;
+}
