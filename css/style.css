@@ -1,28 +1,58 @@
-body{
-    font-family: 'Inter', sans-serif;
+body {
+  font-family: "Inter", sans-serif;
+  width: 100%;
 }
-aside{
-background: #161616;
-width: 156px;
-padding: 54px;
+aside {
+  background: #161616;
+  width: 156px;
+  padding: 54px 0;
 }
-.logo{
-    margin-bottom: 92px;
-    display: flex;
-    justify-content: center;
+.main {
+  display: flex;
 }
-.nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.logo {
+  margin-bottom: 92px;
+  display: flex;
+  justify-content: center;
 }
-.nav img{
-    width: 19px;
-    height: 17px;
-    margin-bottom: 56px;
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.logout{
-    margin-top: 484px;
-    display: flex;
-    justify-content: center;
+.nav img {
+  width: 19px;
+  height: 17px;
+  margin-bottom: 56px;
+}
+.logout {
+  margin-top: 484px;
+  display: flex;
+  justify-content: center;
+}
+header {
+  padding: 48px 1424px 42px 64px;
+}
+.line {
+  border: 2px solid #f4f4f4;
+  width: 1571px;
+}
+.header-left-block {
+}
+.header-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #161616;
+}
+.header-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #cacaca;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
 }
