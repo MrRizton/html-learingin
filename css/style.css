@@ -10,10 +10,9 @@ aside {
 .main {
   display: flex;
 }
-.content-main-block{
-    /* padding-left: 64px; */
-    padding: 62px 64px 86px 64px;
-   
+.content-main-block {
+  /* padding-left: 64px; */
+  padding: 62px 64px 86px 64px;
 }
 .logo {
   margin-bottom: 92px;
@@ -41,10 +40,8 @@ header {
 .line {
   border: 2px solid #f4f4f4;
   width: 1571px;
+}
 
-}
-.header-left-block {
-}
 .header-name {
   font-style: normal;
   font-weight: 700;
@@ -62,21 +59,20 @@ header {
   font-size: 18px;
   line-height: 22px;
 }
-.rastaraunt-name {
+.top-name {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
-
 }
-.restaurant-name-text{
-    font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 29px;
-display: flex;
-align-items: center;
-color: #000000;
-margin-right: 668px;
+.restaurant-name-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-right: 668px;
 }
 .button {
   border: 2px solid #f0f0f0;
@@ -92,54 +88,142 @@ margin-right: 668px;
   height: 40px;
   justify-content: center;
 }
-.seat-name{
-    display: flex;
-    justify-content: space-between;
-}
-.seat-name-text{
-    font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 29px;
-display: flex;
-align-items: center;
-color: #000000;
-margin-right: 380px;
-}
-.content-bottom-part{
-    display: flex;
-}
-.content-left-part{
-    margin-right: 48px;
-}
-.restaraunts-names{
+.seat-name {
   display: flex;
   justify-content: space-between;
 }
-.resturant-name-box{
-display: flex;
-flex-direction: column;
-justify-items: center;
-justify-content: center;
-align-items: center;
-width: 200px;
-height: 135px;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
-border-radius: 16px;
-}
-.name-box-name{
+.seat-name-text {
   font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-color: #000000;
-margin-bottom: 8px;
-margin-top: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-right: 380px;
 }
-.name-box-text{
+.content-bottom-part {
+  display: flex;
+}
+.content-left-part {
+  margin-right: 48px;
+}
+.restaraunts-names {
+  display: flex;
+  justify-content: space-between;
+}
+.resturant-name-box {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 135px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin-bottom: 54px;
+}
+.name-box-name {
   font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #696969;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+.name-box-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #696969;
+}
+.resturant-name-box1 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 135px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin-bottom: 54px;
+  background: #bcf2f8;
+}
+.discription-big-box {
+  
+  border: 2px solid #f0f0f0;
+  border-radius: 16px;
+  padding: 24px;
+}
+.discription-right-top-part {
+  display: flex;
+  margin-bottom: 12px;
+}
+.discription-big-box-top-part {
+  display: flex;
+}
+.discription-top-img {
+  margin-right: 24px;
+}
+.discription-right-bottom-part {
+  display: flex;
+  justify-content: space-between;
+}
+.discription-right-part {
+  width: 100%;
+}
+.discription-text-bolt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-right: 8px;
+}
+.discription-text-thin {
+  width: 59px;
+  height: 20px;
+  background: #d9c6f6;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+.discription-right-bottom-part-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #696969;
+  margin-bottom: 8px;
+  
+}
+.discription-right-bottom-part-text a {
+  color: #161616;
+  text-decoration: none;
+}
+.discription-right-bottom-part-text span {
+  color: #161616;
+  
+}
+.discription-box-line{
+  border: 1px solid #F0F0F0;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 16px;
+}
+.discription-big-box-bottom-part{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
